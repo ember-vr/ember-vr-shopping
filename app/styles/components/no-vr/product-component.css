@@ -1,0 +1,8 @@
+:global(.product-component) {
+  width: 10rem;
+}
+
+.image {
+  height: 10rem;
+  background-color: #4CC3D9;
+}

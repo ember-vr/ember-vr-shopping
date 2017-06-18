@@ -1,11 +1,11 @@
 import Ember from 'ember';
 
 const MyComponent = Ember.Component.extend({
-  classNames: ['product-component']
+  localClassNames: ['list']
 });
 
 MyComponent.reopenClass({
-  positionalParams: ['product']
+  positionalParams: ['products']
 });
 
 export default MyComponent;
