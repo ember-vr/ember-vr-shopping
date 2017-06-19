@@ -43,6 +43,10 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV['ember-cli-mirage'] = {
+      enabled: true
+    };
+
     ENV.rootURL = '/ember-vr-shopping';
     ENV.locationType = 'hash';
   }
