@@ -10,8 +10,7 @@ const MyComponent = AEntity.extend({
       layout: stringifyComponent('layout', {
         type: 'line',
         margin: 1.5
-      }),
-      position: '-1.5 0 -5'
+      })
     });
   })
 });

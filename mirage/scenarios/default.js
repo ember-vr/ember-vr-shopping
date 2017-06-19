@@ -8,4 +8,5 @@ export default function(server) {
   */
 
   server.createList('product', 3);
+  server.create('cart');
 }

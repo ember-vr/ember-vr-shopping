@@ -25,6 +25,8 @@ export default function() {
   */
 
   this.get('/products');
+  this.get('/carts/:id');
+  this.patch('/carts/:id');
 
   // for the aframe inspector
   this.passthrough('https://aframe.io/**');

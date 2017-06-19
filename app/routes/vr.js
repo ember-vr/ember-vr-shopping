@@ -1,7 +1,4 @@
-import Ember from 'ember';
+import Route from 'ember-route';
+import Shared from '../mixins/shared-route';
 
-export default Ember.Route.extend({
-  model() {
-    return this.store.findAll('product');
-  }
-});
+export default Route.extend(Shared);

@@ -1,3 +1,7 @@
+.list {
+  overflow: auto;
+}
+
 :global(.product-component) {
   float: left;
   margin: .5rem;

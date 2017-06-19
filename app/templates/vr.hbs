@@ -1,5 +1,22 @@
 <a-scene>
-  {{vr/product-list model}}
+  <a-entity
+    layout="
+      type: box;
+      reverse: true;
+      margin: 2;
+    "
+    position="-1.5 -.5 -5"
+  >
+    {{vr/product-list
+      products
+      selectProduct=(route-action "addToCart" cart)
+    }}
+
+    {{vr/cart-component
+      cart
+      selectProduct=(route-action "removeFromCart" cart)
+    }}
+  </a-entity>
 
   <a-entity camera look-controls mouse-cursor />
 </a-scene>

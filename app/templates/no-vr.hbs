@@ -1,3 +1,11 @@
 <div>{{#link-to "index"}}Back{{/link-to}}</div>
 
-{{no-vr/product-list model}}
+{{no-vr/product-list
+  products
+  selectProduct=(route-action "addToCart" cart)
+}}
+
+{{no-vr/cart-component
+  cart
+  selectProduct=(route-action "removeFromCart" cart)
+}}
