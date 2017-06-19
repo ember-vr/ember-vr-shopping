@@ -43,7 +43,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.rootURL = '/ember-vr-shopping';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
