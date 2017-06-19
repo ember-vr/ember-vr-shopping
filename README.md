@@ -1,5 +1,7 @@
 # ember-vr-shopping
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ember-vr/ember-vr-shopping.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/ember-vr/ember-vr-shopping.svg?branch=master)](https://travis-ci.org/ember-vr/ember-vr-shopping)
 
 An Ember.js VR shopping experiment
