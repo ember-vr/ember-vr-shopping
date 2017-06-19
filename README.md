@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/ember-vr/ember-vr-shopping.svg?branch=master)](https://travis-ci.org/ember-vr/ember-vr-shopping)
 
+An Ember.js VR shopping experiment
+
 Demo: https://ember-vr.github.io/ember-vr-shopping/
 
 This README outlines the details of collaborating on this Ember application.
