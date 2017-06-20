@@ -28,6 +28,9 @@ export default function() {
   this.get('/carts/:id');
   this.patch('/carts/:id');
 
-  // for the aframe inspector
+  // aframe asset loader
+  this.passthrough('/assets/**');
+
+  // aframe inspector
   this.passthrough('https://aframe.io/**');
 }
