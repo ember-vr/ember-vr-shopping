@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Mixin.create({
-  setupController(model) {
+  setup(model) {
     this.setProperties(model);
   }
 });
