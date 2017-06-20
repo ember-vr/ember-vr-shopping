@@ -1,3 +1,7 @@
+import ENV from '../config/environment';
+
+const { rootURL } = ENV;
+
 export default function() {
 
   // These comments are here to help you get started. Feel free to delete them.
@@ -29,7 +33,7 @@ export default function() {
   this.patch('/carts/:id');
 
   // aframe asset loader
-  this.passthrough('/assets/**');
+  this.passthrough(`${rootURL}/assets/**`);
 
   // aframe inspector
   this.passthrough('https://aframe.io/**');
