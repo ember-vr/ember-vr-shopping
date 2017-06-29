@@ -24,5 +24,11 @@
     }}
   </a-entity>
 
-  <a-entity camera look-controls mouse-cursor />
+  {{vr/camera-component
+    cameraQueryParams=cameraQueryParams
+    intervals=(hash
+      cameraMoveSlow=(hash interval=1000 adjustHeight=true)
+    )
+    cameraMoveSlow=(action "updateCameraQueryParams")
+  }}
 </a-scene>
