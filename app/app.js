@@ -6,11 +6,7 @@ import 'aframe';
 import 'npm:aframe-layout-component';
 import 'npm:aframe-mouse-cursor-component';
 
-let App;
-
-Ember.MODEL_FACTORY_INJECTIONS = true;
-
-App = Ember.Application.extend({
+const App = Ember.Application.extend({
   modulePrefix: config.modulePrefix,
   podModulePrefix: config.podModulePrefix,
   Resolver
