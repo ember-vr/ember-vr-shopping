@@ -1,0 +1,8 @@
+.store :global(.product-list) {
+  margin: 0 100px;
+}
+
+.store :global(.product-component) {
+  float: left;
+  margin: .5rem;
+}

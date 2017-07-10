@@ -7,6 +7,6 @@ export default function(server) {
     Make sure to define a factory for each model you want to create.
   */
 
-  server.createList('product', 3);
+  server.createList('product', 5);
   server.create('cart');
 }

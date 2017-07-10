@@ -1,5 +1,7 @@
 :global(.product-component) {
   width: 10rem;
+  height: 13rem;
+  margin: 0 auto;
 }
 
 .image {

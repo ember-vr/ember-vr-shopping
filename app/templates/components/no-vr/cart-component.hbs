@@ -1,4 +1,6 @@
+Cart ({{cart.products.length}})
+
 {{no-vr/product-list
   cart.products
-  selectProduct=(action selectProduct)
+  selectProduct=(route-action "removeFromCart" cart)
 }}

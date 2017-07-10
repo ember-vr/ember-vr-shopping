@@ -1,0 +1,9 @@
+<h2>
+  Store
+  ({{pluralize products.length "product"}})
+</h2>
+
+{{no-vr/product-list
+  products
+  selectProduct=(action addToCart)
+}}
