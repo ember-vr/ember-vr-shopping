@@ -1,0 +1,12 @@
+.cart {
+  position: fixed;
+  right: 0;
+}
+
+.cart :global(.product-list) {
+  background-color: gray;
+}
+
+.cart :global(.product-component) {
+  margin: .5rem;
+}

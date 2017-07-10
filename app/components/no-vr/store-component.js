@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 const MyComponent = Ember.Component.extend({
-  classNames: ['product-list']
+  localClassNames: ['store']
 });
 
 MyComponent.reopenClass({
