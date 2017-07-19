@@ -37,4 +37,7 @@ export default function() {
 
   // aframe inspector
   this.passthrough('https://aframe.io/**');
+
+  // aframe controllers
+  this.passthrough('https://cdn.aframe.io/**');
 }
