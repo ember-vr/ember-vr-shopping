@@ -4,9 +4,13 @@ import get from 'ember-metal/get';
 
 export default Ember.Mixin.create({
   model() {
+    // return RSVP.hash({
+    //   products: this.store.findAll('product'),
+    //   cart: this.store.findRecord('cart', 1)
+    // });
     return RSVP.hash({
-      products: this.store.findAll('product'),
-      cart: this.store.findRecord('cart', 1)
+      products: [],
+      cart: {}
     });
   },
 
