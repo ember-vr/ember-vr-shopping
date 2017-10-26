@@ -1,7 +1,7 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
 
 export function newlines([string]) {
   return string.replace(/ /g, '\n');
 }
 
-export default Ember.Helper.helper(newlines);
+export default helper(newlines);

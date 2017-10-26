@@ -1,10 +1,10 @@
-import Ember from 'ember';
-import RSVP from 'rsvp';
-import get from 'ember-metal/get';
+import Mixin from '@ember/object/mixin';
+import { hash } from 'rsvp';
+import { get } from '@ember/object';
 
-export default Ember.Mixin.create({
+export default Mixin.create({
   model() {
-    return RSVP.hash({
+    return hash({
       products: this.store.findAll('product'),
       cart: this.store.findRecord('cart', 1)
     });

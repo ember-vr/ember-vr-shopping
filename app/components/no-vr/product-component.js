@@ -1,6 +1,6 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 
-const MyComponent = Ember.Component.extend({
+const MyComponent = Component.extend({
   classNames: ['product-component']
 });
 
