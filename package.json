@@ -46,7 +46,7 @@
     "ember-css-modules": "^0.7.3",
     "ember-data": "~2.18.0",
     "ember-export-application-global": "^2.0.0",
-    "ember-fork-me": "^1.0.1",
+    "ember-fork-me": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-resolver": "^4.0.0",
     "ember-route-action-helper": "^2.0.6",
