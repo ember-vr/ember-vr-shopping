@@ -19,7 +19,7 @@
     "aframe-layout-component": "^4.1.0",
     "aframe-mouse-cursor-component": "^0.5.1",
     "broccoli-asset-rev": "^2.4.5",
-    "ember-aframe": "^0.0.12",
+    "ember-aframe": "^0.1.0",
     "ember-aframe-camera-extras": "^0.1.0",
     "ember-aframe-shim": "^1.0.0",
     "ember-ajax": "^3.0.0",
