@@ -1,7 +1,7 @@
 import AEntity from 'ember-aframe/components/a-entity';
 import stringifyComponent from 'ember-aframe/utils/stringify-component';
 
-const MyComponent = AEntity.extend({
+export default AEntity.extend({
   attributeBindings: ['layout'],
 
   init() {
@@ -14,10 +14,6 @@ const MyComponent = AEntity.extend({
       })
     });
   }
-});
-
-MyComponent.reopenClass({
+}).reopenClass({
   positionalParams: ['products']
 });
-
-export default MyComponent;
