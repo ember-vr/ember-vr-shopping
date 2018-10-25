@@ -1,11 +1,7 @@
 import Component from '@ember/component';
 
-const MyComponent = Component.extend({
+export default Component.extend({
   localClassNames: ['store']
-});
-
-MyComponent.reopenClass({
+}).reopenClass({
   positionalParams: ['products']
 });
-
-export default MyComponent;
