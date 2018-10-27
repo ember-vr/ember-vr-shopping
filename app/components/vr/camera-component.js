@@ -1,12 +1,6 @@
 import ACamera from 'ember-aframe/components/a-camera';
 import ComponentActionsMixin from 'ember-aframe-camera-extras/mixins/component-actions';
 
-export default ACamera.extend(ComponentActionsMixin, {
-  attributeBindings: [
-    'mouse-cursor'
-  ],
-
-  'mouse-cursor': true
-}).reopenClass({
+export default ACamera.extend(ComponentActionsMixin).reopenClass({
   positionalParams: ['cameraQueryParams']
 });
