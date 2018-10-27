@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "aframe": "^0.6.0",
-    "aframe-layout-component": "^5.3.0",
+    "aframe-layout-component": "^4.3.1",
     "aframe-mouse-cursor-component": "^0.5.2",
     "broccoli-asset-rev": "^2.4.5",
     "ember-aframe": "^0.1.0",
