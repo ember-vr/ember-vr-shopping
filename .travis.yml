@@ -13,6 +13,10 @@ cache:
   directories:
     - $HOME/.npm
 
+branches:
+  only:
+    - master
+
 env:
   global:
     # See https://git.io/vdao3 for details.
