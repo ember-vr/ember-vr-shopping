@@ -2,10 +2,11 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ember-vr/ember-vr-shopping.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ember-vr/ember-vr-shopping.svg?branch=master)](https://travis-ci.org/ember-vr/ember-vr-shopping)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d294e9bd-ab6a-45c2-bbe0-79315383e4d6/deploy-status)](https://app.netlify.com/sites/ember-vr-shopping/deploys)
 
 An Ember.js VR shopping experiment
 
-Demo: https://ember-vr.github.io/ember-vr-shopping/
+Demo: https://ember-vr-shopping.netlify.com
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
