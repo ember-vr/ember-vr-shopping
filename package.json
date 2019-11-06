@@ -49,7 +49,7 @@
     "ember-route-action-helper": "^2.0.6",
     "ember-source": "~3.9.0",
     "ember-transition-helper": "^1.0.0",
-    "eslint-plugin-ember": "^6.0.1",
+    "eslint-plugin-ember": "^7.0.0",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.9.0",
     "renovate-config-standard": "^2.0.0"
