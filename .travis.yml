@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "6"
+  - "8"
 
 sudo: false
 dist: trusty
@@ -21,10 +21,6 @@ env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
-
-before_install:
-  - npm config set spin false
-  - npm install -g npm@6
 
 script:
   - npm run lint:hbs
