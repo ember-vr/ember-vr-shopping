@@ -22,6 +22,12 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
+  app.import('node_modules/faker/build/build/faker.js', {
+    using: [
+      { transformation: 'amd', as: 'faker' }
+    ]
+  });
+
   app.import('node_modules/aframe-layout-component/dist/aframe-layout-component.js');
 
   return app.toTree();
