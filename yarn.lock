@@ -4007,7 +4007,7 @@ debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@~4.1.0:
   dependencies:
     ms "^2.1.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -4181,7 +4181,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7":
+document-register-element@dmarcos/document-register-element#8ccc532b7:
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
@@ -4384,7 +4384,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.4.2, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.0, ember-cli-babel@^7.7.3:
   version "7.12.0"
   resolved "https://registry.npmjs.org/ember-cli-babel/-/ember-cli-babel-7.12.0.tgz#064997d199384be8c88d251f30ef67953d3bddc5"
   integrity sha512-+EGQsbPvh19nNXHCm6rVBx2CdlxQlzxMyhey5hsGViDPriDI4PFYXYaFWdGizDrmZoDcG/Ywpeph3hl0NxGQTg==
@@ -4984,21 +4984,21 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@~3.9.0:
-  version "3.9.1"
-  resolved "https://registry.npmjs.org/ember-source/-/ember-source-3.9.1.tgz#e6c7b08f823f9a55e448af1cc439266cabc3e65e"
-  integrity sha512-0rfP1m3KbfylKNnxk4ZWy0jqwqIWGm5rb7ZZFn4zazVJFI6gEmratWadXfzwEgqG2ukRcW9F8frEk0utuaAnMg==
+ember-source@~3.10.0:
+  version "3.10.2"
+  resolved "https://registry.npmjs.org/ember-source/-/ember-source-3.10.2.tgz#17a0405f1e470698f601622b3383cce7f80e2d31"
+  integrity sha512-7WRBikgS5riwO0DiBtKQDQhk80mqppMbghSAHXvfJAYpkGFxuH//MxjO1eRXP9xjzmdMhfDmixrMnNBtc5D6mA==
   dependencies:
     broccoli-funnel "^2.0.2"
     broccoli-merge-trees "^3.0.2"
     chalk "^2.4.2"
-    ember-cli-babel "^7.4.2"
+    ember-cli-babel "^7.7.0"
     ember-cli-get-component-path-option "^1.0.0"
     ember-cli-is-package-missing "^1.0.0"
     ember-cli-normalize-entity-name "^1.0.0"
     ember-cli-path-utils "^1.0.0"
     ember-cli-string-utils "^1.1.0"
-    ember-cli-version-checker "^3.0.1"
+    ember-cli-version-checker "^3.1.3"
     ember-router-generator "^1.2.3"
     inflection "^1.12.0"
     jquery "^3.3.1"
