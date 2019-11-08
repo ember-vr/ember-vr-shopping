@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^1.0.0",
-    "aframe-layout-component": "^4.3.1",
+    "aframe-layout-component": "^5.3.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^3.0.0",
     "ember-aframe": "^0.4.2",
