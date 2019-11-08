@@ -57,6 +57,9 @@
     "qunit-dom": "^0.9.0",
     "renovate-config-standard": "^2.0.0"
   },
+  "resolutions": {
+    "ember-cli-mirage/miragejs/pretender": "kellyselden/pretender#response-dist"
+  },
   "engines": {
     "node": "8.* || >= 10.*"
   }

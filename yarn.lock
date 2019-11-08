@@ -3941,7 +3941,7 @@ debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@~4.1.0:
   dependencies:
     ms "^2.1.1"
 
-"debug@github:ngokevin/debug#noTimestamp":
+debug@ngokevin/debug#noTimestamp:
   version "2.2.0"
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
@@ -4115,7 +4115,7 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-"document-register-element@github:dmarcos/document-register-element#8ccc532b7":
+document-register-element@dmarcos/document-register-element#8ccc532b7:
   version "0.5.4"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
@@ -5458,10 +5458,9 @@ extsprintf@^1.2.0:
   resolved "https://registry.npmjs.org/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
 
-fake-xml-http-request@^2.0.0:
+fake-xml-http-request@kellyselden/FakeXMLHttpRequest#response:
   version "2.0.1"
-  resolved "https://registry.npmjs.org/fake-xml-http-request/-/fake-xml-http-request-2.0.1.tgz#e4a7f256af055d8059deb23c9d7ae721d28cf078"
-  integrity sha512-KzT+G4aLM1Btg25QRGxB6yGLGOVZXXzrH8I4OG3KHwsdoqFclyW3alieqh5NaYGcmbQvNOn/ldGO1rGKf7CNdA==
+  resolved "https://codeload.github.com/kellyselden/FakeXMLHttpRequest/tar.gz/a61474cc8cca4009f24f30fe42b3f6ba7ee4609e"
 
 faker@^3.0.0:
   version "3.1.0"
@@ -8867,12 +8866,11 @@ preserve@^0.2.0:
   resolved "https://registry.npmjs.org/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-pretender@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/pretender/-/pretender-3.0.2.tgz#1e9123914c4e4bd1b553ca78a401120d300d265f"
-  integrity sha512-6gIDHUaJKRZv7ZgP3CsKicvxtBB3brBr2LWKvJYvEyZRicG9JV2SKokK2TIK0b4Zz9+4C79y57MZHpqUjvJqDg==
+pretender@3.0.2, pretender@kellyselden/pretender#response-dist:
+  version "3.0.3"
+  resolved "https://codeload.github.com/kellyselden/pretender/tar.gz/9175c41884272b5c81204849ac0be5ff9923093c"
   dependencies:
-    fake-xml-http-request "^2.0.0"
+    fake-xml-http-request kellyselden/FakeXMLHttpRequest#response
     route-recognizer "^0.3.3"
     whatwg-fetch "^3.0.0"
 
