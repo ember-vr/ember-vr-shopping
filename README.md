@@ -1,6 +1,5 @@
 # ember-vr-shopping
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ember-vr/ember-vr-shopping.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ember-vr/ember-vr-shopping.svg?branch=master)](https://travis-ci.org/ember-vr/ember-vr-shopping)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d294e9bd-ab6a-45c2-bbe0-79315383e4d6/deploy-status)](https://app.netlify.com/sites/ember-vr-shopping/deploys)
 
