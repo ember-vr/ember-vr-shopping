@@ -12,14 +12,14 @@ addons:
 cache:
   yarn: true
 
-branches:
-  only:
-    - master
-
 env:
   global:
     # See https://git.io/vdao3 for details.
     - JOBS=1
+
+branches:
+  only:
+    - master
 
 before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash
