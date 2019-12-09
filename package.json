@@ -58,8 +58,7 @@
     "renovate-config-standard": "^2.0.0"
   },
   "resolutions": {
-    "ember-aframe/aframe": "0.8.2",
-    "ember-cli-mirage/miragejs/pretender": "^3.1.0"
+    "ember-aframe/aframe": "0.8.2"
   },
   "engines": {
     "node": "8.* || >= 10.*"
