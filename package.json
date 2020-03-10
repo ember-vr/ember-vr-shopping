@@ -58,7 +58,7 @@
     "renovate-config-standard": "^2.0.0"
   },
   "resolutions": {
-    "ember-aframe/aframe": "0.8.2"
+    "ember-aframe/aframe": "1.0.4"
   },
   "engines": {
     "node": "8.* || >= 10.*"
