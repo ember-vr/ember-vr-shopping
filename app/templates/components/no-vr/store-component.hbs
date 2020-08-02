@@ -3,7 +3,7 @@
   ({{pluralize @products.length "product"}})
 </h2>
 
-{{no-vr/product-list
-  @products
-  selectProduct=(action @addToCart)
-}}
+<NoVr::ProductList
+  @products={{@products}}
+  @selectProduct={{@addToCart}}
+/>
