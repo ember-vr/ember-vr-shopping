@@ -25,7 +25,7 @@ export default function() {
     this.put('/posts/:id'); // or this.patch
     this.del('/posts/:id');
 
-    http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
+    https://www.ember-cli-mirage.com/docs/route-handlers/shorthands
   */
 
   this.get('/products');
