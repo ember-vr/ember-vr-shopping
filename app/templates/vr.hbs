@@ -28,18 +28,18 @@
     position="-1.5 -2 -5"
   >
     {{vr/product-list
-      products
-      selectProduct=(route-action "addToCart" cart)
+      this.products
+      selectProduct=(route-action "addToCart" this.cart)
     }}
 
     {{vr/cart-component
-      cart
-      selectProduct=(route-action "removeFromCart" cart)
+      this.cart
+      selectProduct=(route-action "removeFromCart" this.cart)
     }}
   </a-entity>
 
   {{vr/camera-component
-    cameraQueryParams
+    this.cameraQueryParams
     intervals=(hash
       cameraMoveSlow=(hash interval=1000 adjustHeight=true)
     )
