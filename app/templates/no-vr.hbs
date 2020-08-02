@@ -1,10 +1,10 @@
 <div><LinkTo @route="index">Back</LinkTo></div>
 
 {{no-vr/store-component
-  products
-  addToCart=(route-action "addToCart" cart)
+  this.products
+  addToCart=(route-action "addToCart" this.cart)
 }}
 
 {{no-vr/cart-component
-  cart
+  this.cart
 }}

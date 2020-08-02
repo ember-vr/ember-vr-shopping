@@ -1,6 +1,6 @@
-{{#each products as |product|}}
+{{#each @products as |product|}}
   {{vr/product-component
     product
-    click=(action selectProduct product)
+    click=(action @selectProduct product)
   }}
 {{/each}}
