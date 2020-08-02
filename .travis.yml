@@ -3,10 +3,10 @@ language: node_js
 node_js:
   - "10"
 
-dist: xenial
-
 addons:
-  chrome: stable
+  firefox: latest
+
+services: xvfb
 
 cache:
   yarn: true
