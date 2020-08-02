@@ -66,6 +66,6 @@
     "node": "8.* || >= 10.*"
   },
   "ember": {
-    "edition": "classic"
+    "edition": "octane"
   }
 }
