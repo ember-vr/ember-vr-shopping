@@ -38,11 +38,11 @@
     }}
   </a-entity>
 
-  {{vr/camera-component
-    this.cameraQueryParams
-    intervals=(hash
+  <Vr::CameraComponent
+    @cameraQueryParams={{this.cameraQueryParams}}
+    @intervals={{hash
       cameraMoveSlow=(hash interval=1000 adjustHeight=true)
-    )
-    cameraMoveSlow=(action "updateCameraQueryParams")
-  }}
+    }}
+    @cameraMoveSlow={{this.updateCameraQueryParams}}
+  />
 </a-scene>
