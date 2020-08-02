@@ -1,6 +1,6 @@
 Cart ({{@cart.products.length}})
 
-{{no-vr/product-list
-  @cart.products
-  selectProduct=(route-action "removeFromCart" @cart)
-}}
+<NoVr::ProductList
+  @products={{@cart.products}}
+  @selectProduct={{route-action "removeFromCart" @cart}}
+/>

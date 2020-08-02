@@ -1,10 +1,10 @@
 <div><LinkTo @route="index">Back</LinkTo></div>
 
-{{no-vr/store-component
-  this.products
-  addToCart=(route-action "addToCart" this.cart)
-}}
+<NoVr::StoreComponent
+  @products={{this.products}}
+  @addToCart={{route-action "addToCart" this.cart}}
+/>
 
-{{no-vr/cart-component
-  this.cart
-}}
+<NoVr::CartComponent
+  @cart={{this.cart}}
+/>
