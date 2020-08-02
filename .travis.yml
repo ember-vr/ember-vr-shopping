@@ -32,3 +32,17 @@ script:
   - yarn lint:hbs
   - yarn lint:js
   - yarn test
+
+jobs:
+  include:
+    # trick the above script into running
+    - env: NOTHING=1
+
+    - if: branch = master AND type = pull_request
+      stage: "ember-cli-update"
+      name: "ember-cli-update"
+      script:
+        - git checkout $TRAVIS_PULL_REQUEST_SHA
+        - git checkout -B $TRAVIS_PULL_REQUEST_BRANCH
+        - git remote set-url origin https://$GITHUB_TOKEN@github.com/$TRAVIS_PULL_REQUEST_SLUG.git
+        - npx https://github.com/kellyselden/ember-cli-update-action.git#semver:^1.5.4 --pull-request-url https://api.github.com/repos/$TRAVIS_REPO_SLUG/pulls/$TRAVIS_PULL_REQUEST --autofix-command "npm run lint:js -- --fix"
