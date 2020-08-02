@@ -28,6 +28,15 @@
           ]
         }
       ]
+    },
+    {
+      "name": "ember-cli-mirage",
+      "version": "0.3.3",
+      "blueprints": [
+        {
+          "name": "ember-cli-mirage"
+        }
+      ]
     }
   ]
 }
