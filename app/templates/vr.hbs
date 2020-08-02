@@ -27,15 +27,15 @@
     "
     position="-1.5 -2 -5"
   >
-    {{vr/product-list
-      this.products
-      selectProduct=(route-action "addToCart" this.cart)
-    }}
+    <Vr::ProductList
+      @products={{this.products}}
+      @selectProduct={{route-action "addToCart" this.cart}}
+    />
 
-    {{vr/cart-component
-      this.cart
-      selectProduct=(route-action "removeFromCart" this.cart)
-    }}
+    <Vr::CartComponent
+      @cart={{this.cart}}
+      @selectProduct={{route-action "removeFromCart" this.cart}}
+    />
   </a-entity>
 
   {{vr/camera-component
