@@ -5,19 +5,19 @@
     <a-asset-item id="mtl" src="assets/product/iphone-5s.mtl"></a-asset-item>
   </a-assets>
 
-  {{#a-entity
-    position="-1.5 1.5 -5"
-    geometry="primitive: plane; height: .5; width: 1"
-    material="shader: flat; color: gray"
-    click=(transition-to "index")
-  }}
+  <AEntity
+    @position="-1.5 1.5 -5"
+    @geometry="primitive: plane; height: .5; width: 1"
+    @material="shader: flat; color: gray"
+    @click={{transition-to "index"}}
+  >
     <a-text
       value="Back"
       color="black"
       width="4"
       align="center"
     />
-  {{/a-entity}}
+  </AEntity>
 
   <a-entity
     layout="
