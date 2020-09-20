@@ -1649,9 +1649,9 @@ aframe@0.8.2, aframe@^0.8.2, aframe@^1.0.4:
   dependencies:
     "@tweenjs/tween.js" "^16.8.0"
     browserify-css "^0.8.2"
-    debug "github:ngokevin/debug#noTimestamp"
+    debug ngokevin/debug#noTimestamp
     deep-assign "^2.0.0"
-    document-register-element "github:dmarcos/document-register-element#8ccc532b7"
+    document-register-element dmarcos/document-register-element#8ccc532b7
     envify "^3.4.1"
     load-bmfont "^1.2.3"
     object-assign "^4.0.1"
@@ -4523,7 +4523,6 @@ debug@^4.0.0, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1:
 
 "debug@github:ngokevin/debug#noTimestamp":
   version "2.2.0"
-  uid ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a
   resolved "https://codeload.github.com/ngokevin/debug/tar.gz/ef5f8e66d49ce8bc64c6f282c15f8b7164409e3a"
 
 debug@~3.1.0:
@@ -4715,7 +4714,6 @@ doctrine@^3.0.0:
 
 "document-register-element@github:dmarcos/document-register-element#8ccc532b7":
   version "0.5.4"
-  uid "8ccc532b7f3744be954574caf3072a5fd260ca90"
   resolved "https://codeload.github.com/dmarcos/document-register-element/tar.gz/8ccc532b7f3744be954574caf3072a5fd260ca90"
 
 dom-walk@^0.1.0:
@@ -4821,14 +4819,14 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-aframe-camera-extras@0.5.1:
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.5.1.tgz#9aca5fe182434299e5179f088979c534d027e63a"
-  integrity sha512-pHuAjDibmMlNgOI/Da6on3P+NSSrfPD4arRWdGmNZmvAB3TiA/h/X0nrs+aDCxBRo6eqinlKRaEl6IcliuRjUA==
+ember-aframe-camera-extras@0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.6.0.tgz#c29a830c7af46a554ba37da741eeaf0af8ec26bb"
+  integrity sha512-tIffu2xzRJLrxoaLP7v+8jmeIfYphqRCYfhCXcbEfUtpGmZn1t5gGx2Da1QXSUJFaJqn5PSinC3Z4yNF83TqRQ==
   dependencies:
-    ember-awesome-macros "^5.0.1"
-    ember-cli-babel "^7.11.1"
-    ember-lifeline "^4.0.0"
+    ember-awesome-macros "^6.0.0"
+    ember-cli-babel "^7.22.1"
+    ember-lifeline "^6.0.0"
 
 ember-aframe-shim@^2.6.6:
   version "2.6.6"
@@ -4897,17 +4895,6 @@ ember-auto-import@^1.2.19, ember-auto-import@^1.6.0:
     walk-sync "^0.3.3"
     webpack "~4.28"
 
-ember-awesome-macros@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/ember-awesome-macros/-/ember-awesome-macros-5.0.1.tgz#fbe36a680165eb63a402e587a0d808ba54b5be5b"
-  integrity sha512-qqXc/AOf3gc7lr4tMmGMIulQ7uyWOsPWSIxSspnzgtUJ955M1iXRLyefh8US/+oWdKGMYNum/4vdTkV6SP3Eeg==
-  dependencies:
-    broccoli-file-creator "^2.1.1"
-    broccoli-merge-trees "^3.0.0"
-    ember-cli-babel "^7.7.3"
-    ember-cli-string-utils "^1.1.0"
-    ember-macro-helpers "^4.2.2"
-
 ember-awesome-macros@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/ember-awesome-macros/-/ember-awesome-macros-6.0.0.tgz#edc01b9480f475e961d1eada6cb5a5fead7ddd20"
@@ -4951,7 +4938,7 @@ ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.12.0, ember-cli-babel@^6.16.0,
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.22.1, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.1.2, ember-cli-babel@^7.11.0, ember-cli-babel@^7.11.1, ember-cli-babel@^7.12.0, ember-cli-babel@^7.18.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.22.1, ember-cli-babel@^7.5.0, ember-cli-babel@^7.7.3:
   version "7.22.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.22.1.tgz#cad28b89cf0e184c93b863d09bc5ba4ce1d2e453"
   integrity sha512-kCT8WbC1AYFtyOpU23ESm22a+gL6fWv8Nzwe8QFQ5u0piJzM9MEudfbjADEaoyKTrjMQTDsrWwEf3yjggDsOng==
@@ -5156,7 +5143,7 @@ ember-cli-typescript@3.0.0:
     stagehand "^1.0.0"
     walk-sync "^2.0.0"
 
-ember-cli-typescript@^2.0.0, ember-cli-typescript@^2.0.2:
+ember-cli-typescript@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/ember-cli-typescript/-/ember-cli-typescript-2.0.2.tgz#464984131fbdc05655eb61d1c3cdd911d3137f0d"
   integrity sha512-7I5azCTxOgRDN8aSSnJZIKSqr+MGnT+jLTUbBYqF8wu6ojs2DUnTePxUcQMcvNh3Q3B1ySv7Q/uZFSjdU9gSjA==
@@ -5174,7 +5161,7 @@ ember-cli-typescript@^2.0.0, ember-cli-typescript@^2.0.2:
     stagehand "^1.0.0"
     walk-sync "^1.0.0"
 
-ember-cli-typescript@^3.1.3:
+ember-cli-typescript@^3.1.3, ember-cli-typescript@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/ember-cli-typescript/-/ember-cli-typescript-3.1.4.tgz#21d6ccd670d1f2e34c9cce68c6e32c442f46806b"
   integrity sha512-HJ73kL45OGRmIkPhBNFt31I1SGUvdZND+LCH21+qpq3pPlFpJG8GORyXpP+2ze8PbnITNLzwe5AwUrpyuRswdQ==
@@ -5325,7 +5312,7 @@ ember-cli@3.21.2:
     workerpool "^6.0.0"
     yam "^1.0.0"
 
-ember-compatibility-helpers@^1.1.1, ember-compatibility-helpers@^1.1.2, ember-compatibility-helpers@^1.2.0:
+ember-compatibility-helpers@^1.1.1, ember-compatibility-helpers@^1.1.2, ember-compatibility-helpers@^1.2.0, ember-compatibility-helpers@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ember-compatibility-helpers/-/ember-compatibility-helpers-1.2.1.tgz#87c92c4303f990ff455c28ca39fb3ee11441aa16"
   integrity sha512-6wzYvnhg1ihQUT5yGqnLtleq3Nv5KNv79WhrEuNU9SwR4uIxCO+KpyC7r3d5VI0EM7/Nmv9Nd0yTkzmTMdVG1A==
@@ -5393,6 +5380,15 @@ ember-data@~3.21.0:
     ember-cli-typescript "^3.1.3"
     ember-inflector "^3.0.1"
 
+ember-destroyable-polyfill@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/ember-destroyable-polyfill/-/ember-destroyable-polyfill-2.0.2.tgz#2cc7532bd3c00e351b4da9b7fc683f4daff79671"
+  integrity sha512-9t+ya+9c+FkNM5IAyJIv6ETG8jfZQaUnFCO5SeLlV0wkSw7TOexyb61jh5GVee0KmknfRhrRGGAyT4Y0TwkZ+w==
+  dependencies:
+    ember-cli-babel "^7.22.1"
+    ember-cli-version-checker "^5.1.1"
+    ember-compatibility-helpers "^1.2.1"
+
 ember-export-application-global@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ember-export-application-global/-/ember-export-application-global-2.0.1.tgz#b120a70e322ab208defc9e2daebe8d0dfc2dcd46"
@@ -5455,13 +5451,14 @@ ember-getowner-polyfill@^2.0.0:
   dependencies:
     ember-cli-babel "^6.6.0"
 
-ember-lifeline@^4.0.0:
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/ember-lifeline/-/ember-lifeline-4.1.5.tgz#a3db0c2357b533c65e1396c1c1d70609c2cd7276"
-  integrity sha512-uPnc577X8grg5/6SLCIkRvLuMRTGPErOl5VbwtzAktjq4Ce0owtTrr4kbAQ1gad9t9CBfCSfAQJ+FY9WNt9iCQ==
+ember-lifeline@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ember-lifeline/-/ember-lifeline-6.0.1.tgz#f192eab8ad0806eca86ad01f58d42bff3417f6f9"
+  integrity sha512-fQ3yfDnNkNf9IK8juW7Jj0mnySI+sJBsDBq3sO6kJplidGZdq7LQxdVX6/EtGaJ9Rdv2cBOn585glSqimUEHNA==
   dependencies:
-    ember-cli-babel "^7.1.3"
-    ember-cli-typescript "^2.0.0"
+    ember-cli-babel "^7.22.1"
+    ember-cli-typescript "^3.1.4"
+    ember-destroyable-polyfill "^2.0.2"
 
 ember-load-initializers@^2.1.1:
   version "2.1.1"
@@ -11788,7 +11785,6 @@ three-buffer-vertex-data@^1.0.0:
 
 "three@github:supermedium/three.js#r90fixMTLLoader":
   version "0.90.0"
-  uid "5ef2887ab3621cae54fa129a500424d6caa25b62"
   resolved "https://codeload.github.com/supermedium/three.js/tar.gz/5ef2887ab3621cae54fa129a500424d6caa25b62"
 
 through2@0.6.x:
