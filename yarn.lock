@@ -5576,9 +5576,9 @@ elliptic@^6.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-aframe-camera-extras@^0.5.1:
+ember-aframe-camera-extras@0.5.1:
   version "0.5.1"
-  resolved "https://registry.yarnpkg.com/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.5.1.tgz#9aca5fe182434299e5179f088979c534d027e63a"
+  resolved "https://registry.npmjs.org/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.5.1.tgz#9aca5fe182434299e5179f088979c534d027e63a"
   integrity sha512-pHuAjDibmMlNgOI/Da6on3P+NSSrfPD4arRWdGmNZmvAB3TiA/h/X0nrs+aDCxBRo6eqinlKRaEl6IcliuRjUA==
   dependencies:
     ember-awesome-macros "^5.0.1"
@@ -5593,9 +5593,9 @@ ember-aframe-shim@^2.3.1:
     pkg-conf "^3.0.0"
     resolve "^1.8.1"
 
-ember-aframe@^0.5.0:
+ember-aframe@0.5.0:
   version "0.5.0"
-  resolved "https://registry.yarnpkg.com/ember-aframe/-/ember-aframe-0.5.0.tgz#20228a858c1878869df9571dcb40665923bda848"
+  resolved "https://registry.npmjs.org/ember-aframe/-/ember-aframe-0.5.0.tgz#20228a858c1878869df9571dcb40665923bda848"
   integrity sha512-ErZ2TzaxjLPfCwXbLRZpCxHf6XtF+dlHWjgYTJeWMiIcpeM+vRNIjnSmLNrZnPaZbhPuIZvvDTwINRrx0D6vpA==
   dependencies:
     aframe "^0.9.2"
