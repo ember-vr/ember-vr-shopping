@@ -21,7 +21,6 @@ module.exports = {
     browser: true
   },
   rules: {
-    'ember/no-jquery': 'error',
     'ember/avoid-leaking-state-in-ember-objects': [2, require('eslint-plugin-ember/lib/rules/avoid-leaking-state-in-ember-objects').DEFAULT_IGNORED_PROPERTIES.concat([
       'localClassNames'
     ])]
@@ -47,13 +46,12 @@ module.exports = {
         node: true
       },
       plugins: ['node'],
-      rules: Object.assign({}, require('eslint-plugin-node').configs.recommended.rules, {
-        // add your custom rules and overrides for node files here
-
+      extends: ['plugin:node/recommended'],
+      rules: {
         // this can be removed once the following is fixed
         // https://github.com/mysticatea/eslint-plugin-node/issues/77
         'node/no-unpublished-require': 'off'
-      })
+      }
     }
   ]
 };
