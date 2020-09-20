@@ -42,7 +42,7 @@
     "ember-cli-uglify": "^3.0.0",
     "ember-controller-lifecycle": "^1.0.0",
     "ember-css-modules": "^1.0.1",
-    "ember-data": "~3.19.0",
+    "ember-data": "~3.21.0",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.0.1",
     "ember-fork-me": "^3.0.1",
