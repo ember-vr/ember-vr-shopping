@@ -51,7 +51,7 @@
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^8.0.0",
     "ember-route-action-helper": "^2.0.7",
-    "ember-source": "~3.19.0",
+    "ember-source": "~3.21.0",
     "ember-template-lint": "^2.8.0",
     "ember-transition-helper": "^1.0.0",
     "eslint": "^7.1.0",
