@@ -63,9 +63,6 @@
     "qunit-dom": "^1.4.0",
     "renovate-config-standard": "^2.0.0"
   },
-  "resolutions": {
-    "ember-aframe/aframe": "0.8.2"
-  },
   "engines": {
     "node": "10.* || >= 12"
   },
