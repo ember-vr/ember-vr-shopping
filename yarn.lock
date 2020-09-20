@@ -6056,7 +6056,7 @@ ember-cli-version-checker@^5.0.2, ember-cli-version-checker@^5.1.1:
     semver "^7.3.2"
     silent-error "^1.1.1"
 
-ember-cli@~3.19.0:
+ember-cli@3.19.0:
   version "3.19.0"
   resolved "https://registry.npmjs.org/ember-cli/-/ember-cli-3.19.0.tgz#8c46d1f7c028867c6816da6a60f7a1080be58e4d"
   integrity sha512-MVBfC8rSdoQIITXCWX/1eAD/uoXZlH0YSO6NOxshsUaQxpo/SP1bSotwvZo4Hvd8novODNm/zQfVzDwAyJrJHw==
