@@ -4819,10 +4819,10 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-aframe-camera-extras@0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.6.0.tgz#c29a830c7af46a554ba37da741eeaf0af8ec26bb"
-  integrity sha512-tIffu2xzRJLrxoaLP7v+8jmeIfYphqRCYfhCXcbEfUtpGmZn1t5gGx2Da1QXSUJFaJqn5PSinC3Z4yNF83TqRQ==
+ember-aframe-camera-extras@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/ember-aframe-camera-extras/-/ember-aframe-camera-extras-0.6.1.tgz#fb431ccb12e57f91020c7e4f86b9e724e114b8ad"
+  integrity sha512-dSFO6s7wbcXS+/CY6t/DVqtCtUWrFgOJ4vpGZ9eyRNXOnK3V0WnI3AGt+QhWLaZ+9iTv1swRRsX4vf0QWwl1zA==
   dependencies:
     ember-awesome-macros "^6.0.0"
     ember-cli-babel "^7.22.1"
