@@ -38,7 +38,7 @@
     />
   </a-entity>
 
-  <Vr::CameraComponent
+  <Vr::CameraComponent {{!-- template-lint-disable no-action --}}
     @cameraQueryParams={{this.cameraQueryParams}}
     @intervals={{hash
       cameraMoveSlow=(hash interval=1000 adjustHeight=true)
