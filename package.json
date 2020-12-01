@@ -55,7 +55,7 @@
     "ember-template-lint": "^2.11.0",
     "ember-transition-helper": "^1.0.0",
     "eslint": "^7.8.0",
-    "eslint-plugin-ember": "^9.0.0",
+    "eslint-plugin-ember": "^10.0.0",
     "eslint-plugin-node": "^11.1.0",
     "faker": "^5.0.0",
     "loader.js": "^4.7.0",

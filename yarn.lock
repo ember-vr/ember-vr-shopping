@@ -4418,6 +4418,14 @@ css-stringify@1.4.1:
   dependencies:
     source-map "~0.1.31"
 
+css-tree@^1.0.0-alpha.39:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.1.2.tgz#9ae393b5dafd7dae8a622475caec78d3d8fbd7b5"
+  integrity sha512-wCoWush5Aeo48GLhfHPbmvZs59Z+M7k5+B1xDnXbdWNcEF423DoFdqSWE0PM5aNk5nI5cp1q7ms36zGApY/sKQ==
+  dependencies:
+    mdn-data "2.0.14"
+    source-map "^0.6.1"
+
 css@1.6.x:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/css/-/css-1.6.0.tgz#c06fff0afbb313fce5bce070d76531a6c8d300aa"
@@ -5819,12 +5827,13 @@ escodegen@^1.11.0, escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@^9.0.0:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-9.1.1.tgz#b4ecd3c2e26faee685f8e91318257a933b4322e7"
-  integrity sha512-yEOaikB3/i9HnGN31JhP7kenrvXmmK/3b9Pazo4ErM7dpSHZ0GCH7xlN1H7eSmMqwcq0kAB5wcYSjF4hFiqQIA==
+eslint-plugin-ember@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.0.0.tgz#45d79a8f9ef6241b0c2b9e8c8162e48aa866dd08"
+  integrity sha512-GDuDGAgO0hLzxrWkWPHu4pitS1TtzxJSbmUn2thW1InfFaFfut3+1Ix/k/UBCS5iyGuhQKKomRpSTBPz9z3vGw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
+    css-tree "^1.0.0-alpha.39"
     ember-rfc176-data "^0.3.15"
     lodash.kebabcase "^4.1.1"
     snake-case "^3.0.3"
@@ -8821,6 +8830,11 @@ md5.js@^1.3.4:
     hash-base "^3.0.0"
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
+
+mdn-data@2.0.14:
+  version "2.0.14"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
+  integrity sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==
 
 mdurl@^1.0.1:
   version "1.0.1"
