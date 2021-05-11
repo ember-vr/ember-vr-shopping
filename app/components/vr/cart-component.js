@@ -1,5 +1,7 @@
 import AEntity from 'ember-aframe/components/a-entity';
 
-export default AEntity.extend().reopenClass({
+export default AEntity.extend({
+  'data-test-cart': ''
+}).reopenClass({
   positionalParams: ['cart']
 });

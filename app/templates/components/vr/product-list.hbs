@@ -1,5 +1,6 @@
-{{#each @products as |product|}}
+{{#each @products as |product i|}}
   <Vr::ProductComponent
+    data-test-product={{i}}
     @product={{product}}
     {{on "click" (fn @selectProduct product)}}
   />
